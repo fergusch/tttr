@@ -1,0 +1,10 @@
+name: tttr
+version: "0.1.0"
+about: A Rust implementation of the classic game Tic-Tac-Toe.
+args:
+  - mode:
+      short: m
+      long: mode
+      value_name: MODE
+      help: Sets the gameplay mode. Modes include "easy", "hard", "2p", "sim"
+      takes_value: true

@@ -1,0 +1,11 @@
+[package]
+name = "tttr"
+version = "0.1.0"
+authors = ["Christian Ferguson <fergusch@iu.edu>"]
+
+[dependencies]
+termion = "1"
+rand="0.3.14"
+clap = {version="2.32", features = ["yaml"]}
+ctrlc="3.1.1"
+seq="0.5"
